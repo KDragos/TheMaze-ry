@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4A4509E7-CDFE-8704-8FC4-A9F7639D8627}") = "The Maze-ry", "Assembly-CSharp.csproj", "{392A3823-7D55-990D-23E7-4657245913F6}"
+EndProject
+Project("{4A4509E7-CDFE-8704-8FC4-A9F7639D8627}") = "The Maze-ry", "Assembly-CSharp-Editor.csproj", "{69B8640E-4000-EA90-0E5E-915C884AC05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392A3823-7D55-990D-23E7-4657245913F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392A3823-7D55-990D-23E7-4657245913F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392A3823-7D55-990D-23E7-4657245913F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392A3823-7D55-990D-23E7-4657245913F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B8640E-4000-EA90-0E5E-915C884AC05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B8640E-4000-EA90-0E5E-915C884AC05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B8640E-4000-EA90-0E5E-915C884AC05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B8640E-4000-EA90-0E5E-915C884AC05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
