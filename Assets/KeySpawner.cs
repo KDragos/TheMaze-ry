@@ -3,7 +3,6 @@ using System.Collections;
 
 public class KeySpawner : MonoBehaviour {
 
-	public GameObject[] spawnPoints;
 	public GameObject key;
 
 	// Use this for initialization
@@ -17,17 +16,17 @@ public class KeySpawner : MonoBehaviour {
 	}
 
 	void OnDrawGizmos() {
-		for (int i = 0; i < spawnPoints.Length; i++) {
+		foreach (Transform child in transform) {
 			Gizmos.color = Color.yellow;
-			Gizmos.DrawWireSphere(spawnPoints[i].transform.position, 1);
+			Gizmos.DrawWireSphere(child.position, 1);
 		}
     }
 
     private void SpawnKey ()
 	{
-		int randomSpawnPont = Random.Range(0, spawnPoints.Length);
+		int randomSpawnPont = Random.Range(0, transform.childCount);
 		Debug.Log("Spawning key at point: " + randomSpawnPont.ToString());
-		Instantiate(key, spawnPoints[randomSpawnPont].transform.position, Quaternion.identity);
+		Instantiate(key, this.gameObject.transform.GetChild(randomSpawnPont).position, Quaternion.identity);
 	}
 
 }
