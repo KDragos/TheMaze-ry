@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\KeySpawner.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
