@@ -10,7 +10,8 @@ This is still a work in progress. My ideas for enhancing this game include:
 - Potentially more challenging, procedurely generated layouts.
 - Sound effects.
 - Animations.
-- A helpful creature to provide hints or maybe just comedic value. 
+- A helpful creature to provide hints. 
+- A heads up display (HUD) containing: (1) a graphic for the key. A gray icon will indicate that the key isn't picked up yet. A gold key indicates it has been collected. (2) a place to track score (collected coins).
 
 ## Challenges and Reflection
 This will be added after I'm finished with the project. 
