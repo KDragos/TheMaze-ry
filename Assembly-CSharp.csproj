@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\KeySpawner.cs" />
+     <Compile Include="Assets\Udacity\Scripts\Coin.cs" />
+     <Compile Include="Assets\Udacity\Scripts\DieAfterSeconds.cs" />
+     <Compile Include="Assets\Udacity\Scripts\Door.cs" />
+     <Compile Include="Assets\Udacity\Scripts\Key.cs" />
+     <Compile Include="Assets\Udacity\Scripts\SignPost.cs" />
+     <Compile Include="Assets\Udacity\Scripts\Waypoint.cs" />
      <Compile Include="Assets\WallSpawner.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
@@ -92,12 +98,6 @@
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\Coin.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\DieAfterSeconds.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\Door.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\Key.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\SignPost.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\Udacity\Scripts\Waypoint.cs" />
      <None Include="Assets\vrnd-course3-starter-project-002\Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
