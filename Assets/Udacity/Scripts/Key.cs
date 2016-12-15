@@ -15,7 +15,7 @@ public class Key : MonoBehaviour
 
     void Start ()
 	{
-		keyImage = FindObjectOfType<Image>();
+		keyImage = GameObject.Find("KeyImage").GetComponent<Image>();
 		keyImage.sprite = keyMissing;
 		door = GameObject.Find("Door");
 	}

@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\CoinCounter.cs" />
      <Compile Include="Assets\CoinSpawner.cs" />
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
