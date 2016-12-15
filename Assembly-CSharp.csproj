@@ -45,9 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CoinCounter.cs" />
-     <Compile Include="Assets\CoinSpawner.cs" />
-     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
@@ -136,14 +133,17 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\KeySpawner.cs" />
-     <Compile Include="Assets\Udacity\Scripts\Coin.cs" />
-     <Compile Include="Assets\Udacity\Scripts\DieAfterSeconds.cs" />
-     <Compile Include="Assets\Udacity\Scripts\Door.cs" />
-     <Compile Include="Assets\Udacity\Scripts\Key.cs" />
-     <Compile Include="Assets\Udacity\Scripts\SignPost.cs" />
-     <Compile Include="Assets\Udacity\Scripts\Waypoint.cs" />
-     <Compile Include="Assets\WallSpawner.cs" />
+     <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\CoinCounter.cs" />
+     <Compile Include="Assets\Scripts\CoinSpawner.cs" />
+     <Compile Include="Assets\Scripts\DieAfterSeconds.cs" />
+     <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Key.cs" />
+     <Compile Include="Assets\Scripts\KeySpawner.cs" />
+     <Compile Include="Assets\Scripts\SignPost.cs" />
+     <Compile Include="Assets\Scripts\WallSpawner.cs" />
+     <Compile Include="Assets\Scripts\Waypoint.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
