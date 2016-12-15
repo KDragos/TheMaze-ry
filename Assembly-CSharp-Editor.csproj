@@ -45,23 +45,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrAudioSoundfieldEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrAudioSourceEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrCompatibilityChecker.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Editor\GvrGazeEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Editor\GvrMenu.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Editor\GvrViewerEditor.cs" />
-     <Compile Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Editor\StereoControllerEditor.cs" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
-     <None Include="Assets\vrnd-course3-starter-project-002\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
-     <None Include="Assets\vrnd-course3-starter-project-002\Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+     <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrAudioListenerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrAudioRoomEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrAudioSoundfieldEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrCompatibilityChecker.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrGazeEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrMenu.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrViewerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\StereoControllerEditor.cs" />
+     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -90,7 +102,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Assets/vrnd-course3-starter-project-002/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
