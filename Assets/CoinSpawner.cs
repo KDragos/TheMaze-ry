@@ -26,8 +26,8 @@ public class CoinSpawner : MonoBehaviour {
     private void SpawnCoins() {
 		foreach (Transform child in transform) {
 			float probabilityOfCoin = Random.value;
-			if (probabilityOfCoin >= 0.5f) { // Determine the probability of spawning a coin.
-				if (Random.value >= 0.5f) {
+			if (probabilityOfCoin >= 0.4f) { // Determine the probability of spawning a coin.
+				if (Random.value >= 0.4f) {
 					Instantiate (coin1, child.position, Quaternion.identity); // Creates a coin worth 1 points. 
 				} else {
 					Instantiate (coin5, child.position, Quaternion.identity); // Creates a coin worth 5 points.

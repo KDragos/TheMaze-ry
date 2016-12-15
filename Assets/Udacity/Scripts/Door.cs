@@ -12,6 +12,7 @@ public class Door : MonoBehaviour
     void Start ()
 	{
 		locked = true;
+//		audioSource = FindObjectOfType<AudioSource>();
 //		Debug.Log(audioSource.enabled);
 //		audioSource.clip = doorLocked;
 //		audioSource.Play();
@@ -29,7 +30,6 @@ public class Door : MonoBehaviour
 
     public void Unlock()
     {
-        // You'll need to set "locked" to true here
         locked = false;
         Debug.Log("Door is now unlocked.");
 		Debug.Log(audioSource.enabled);

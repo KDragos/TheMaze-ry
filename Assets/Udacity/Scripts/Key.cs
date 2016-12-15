@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Key : MonoBehaviour 
 {
-    //Create a reference to the KeyPoofPrefab and Door
     public GameObject keyPoof;
     public GameObject door;
 
+    // Image and sprites to indicate key status in HUD.
     public Image keyImage;
     public Sprite keyCollected;
     public Sprite keyMissing;
@@ -21,18 +21,23 @@ public class Key : MonoBehaviour
 
 	void Update()
 	{
-		//Bonus: Key Animation
+		
 	}
 
 	public void OnKeyClicked()
 	{
+		// Instantiate poof
 		Transform keyHolder = this.transform.parent;
 		GameObject createdPoof = (GameObject) Instantiate(keyPoof, keyHolder.transform.position, Quaternion.identity);
+		createdPoof.transform.Rotate(-90f, 0f, 0f);
+
+		// Change key icon to indicate collection of key.
 		keyImage.sprite = keyCollected;
 
-        // Call the Unlock() method on the Door
-
+		// Unlock door.
 		door.GetComponent<Door>().Unlock();
+
+		// Destroy Key.
         Destroy(gameObject);
     }
 
