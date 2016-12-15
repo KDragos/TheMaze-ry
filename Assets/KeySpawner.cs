@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class KeySpawner : MonoBehaviour {
 
 	public GameObject key;
+	public Image keyImage;
 
-	// Use this for initialization
-	void Start () {
+    public Sprite keyCollected;
+    public Sprite keyMissing;
+
+    void Start ()
+	{
 		SpawnKey();
+//		keyImage.sprite = keyMissing;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	

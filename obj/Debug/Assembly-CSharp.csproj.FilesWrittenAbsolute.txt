@@ -1,0 +1,15 @@
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/UnityEngine.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/UnityEditor.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Google.ProtocolBuffers.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Mono.Cecil.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Unity.DataContract.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/kristin/Desktop/UdacityVRNano/The Maze-ry/Temp/bin/Debug/Mono.Cecil.Mdb.dll
