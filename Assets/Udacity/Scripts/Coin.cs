@@ -22,7 +22,7 @@ public class Coin : MonoBehaviour
         // Score Points
         ScorePoints();
 
-        // Destroy this coin. Check the Unity documentation on how to use Destroy
+        // Destroy this coin.
         Destroy(gameObject);
 
     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour 
 {
@@ -8,6 +9,9 @@ public class Door : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip doorLocked;
     public AudioClip doorUnlocked;
+
+    public GameObject helpMessage;
+    public Text messageText;
 
     void Start ()
 	{
@@ -32,9 +36,28 @@ public class Door : MonoBehaviour
     {
         locked = false;
         Debug.Log("Door is now unlocked.");
-		Debug.Log(audioSource.enabled);
+		Debug.Log(GetComponent<AudioSource>().ToString());
         audioSource.clip = doorUnlocked;
         audioSource.Play();
+
+        Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
+        message.text = "You've unlocked the door. Now you must find it to win.";
+		Destroy(message, 5f);
+        Debug.Log("Created message.");
+    }
+
+    public void Open ()
+	{
+		if (locked) {
+			Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
+        	message.text = "This door is locked. There must be some way to open it.";
+        	Destroy(message, 5f);
+
+		} else {
+			Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
+        	message.text = "Congratulations!";
+			Destroy(message, 5f);
+		}
 
     }
 }
