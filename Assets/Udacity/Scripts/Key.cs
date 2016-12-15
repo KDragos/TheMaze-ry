@@ -26,11 +26,12 @@ public class Key : MonoBehaviour
 
 	public void OnKeyClicked()
 	{
-		Debug.Log("Key was clicked.");
-		Instantiate(keyPoof, gameObject.transform.position, Quaternion.identity);
+		Transform keyHolder = this.transform.parent;
+		GameObject createdPoof = (GameObject) Instantiate(keyPoof, keyHolder.transform.position, Quaternion.identity);
 		keyImage.sprite = keyCollected;
 
         // Call the Unlock() method on the Door
+
 		door.GetComponent<Door>().Unlock();
         Destroy(gameObject);
     }

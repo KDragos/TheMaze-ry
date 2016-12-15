@@ -12,9 +12,9 @@ public class Door : MonoBehaviour
     void Start ()
 	{
 		locked = true;
-		Debug.Log(audioSource.enabled);
-		audioSource.clip = doorLocked;
-		audioSource.Play();
+//		Debug.Log(audioSource.enabled);
+//		audioSource.clip = doorLocked;
+//		audioSource.Play();
 
 	}
 
