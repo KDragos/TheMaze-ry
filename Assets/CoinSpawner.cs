@@ -24,15 +24,19 @@ public class CoinSpawner : MonoBehaviour {
     }
 
     private void SpawnCoins() {
+    	int maxScore = 0;
 		foreach (Transform child in transform) {
 			float probabilityOfCoin = Random.value;
 			if (probabilityOfCoin >= 0.4f) { // Determine the probability of spawning a coin.
 				if (Random.value >= 0.4f) {
 					Instantiate (coin1, child.position, Quaternion.identity); // Creates a coin worth 1 points. 
+					maxScore ++;
 				} else {
 					Instantiate (coin5, child.position, Quaternion.identity); // Creates a coin worth 5 points.
+					maxScore += 5;
 				}
 			}
 		}
+		GameObject.Find("ScoreManager").GetComponent<CoinCounter>().SetMaxScore(maxScore);
     }
 }
