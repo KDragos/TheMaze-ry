@@ -25,6 +25,7 @@ public class Door : MonoBehaviour
 
     }
 
+    // Unlocks the door so that when the door is clicked on next, it will open.
     public void Unlock()
     {
         locked = false;
@@ -36,6 +37,8 @@ public class Door : MonoBehaviour
 		Destroy(message, 5f);
     }
 
+    // If the door is locked, users get a message.
+    // If teh door is unlocked, users will be able to open the door.
     public void Open ()
 	{
 		if (locked) {
