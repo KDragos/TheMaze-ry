@@ -31,7 +31,6 @@ public class KeySpawner : MonoBehaviour {
     private void SpawnKey ()
 	{
 		int randomSpawnPont = Random.Range(0, transform.childCount);
-		Debug.Log("Spawning key at point: " + randomSpawnPont.ToString());
 		Instantiate(key, this.gameObject.transform.GetChild(randomSpawnPont).position, Quaternion.identity);
 	}
 
