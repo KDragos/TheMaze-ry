@@ -10,12 +10,14 @@ public class Door : MonoBehaviour
     public AudioClip doorLocked;
     public AudioClip doorUnlocked;
 
+    public GameObject winningUI;
     public GameObject helpMessage;
     public Text messageText;
 
     void Start ()
 	{
 		locked = true;
+		winningUI.SetActive(false);
 	}
 
     void Update ()
@@ -44,6 +46,7 @@ public class Door : MonoBehaviour
 			Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
 			gameObject.GetComponent<Animator>().SetBool("HasKey", true);
         	message.text = "Congratulations!";
+        	winningUI.SetActive(true);
 			Destroy(message, 5f);
 		}
 
