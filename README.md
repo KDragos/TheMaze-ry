@@ -9,7 +9,7 @@ This is still a work in progress. My ideas for enhancing this game include:
 - Procedurely generated walls, key spawn points, and collectibles to ensure that each time the game is played, the layout is different.
 - Sound effects have been added when collecting an item, moving between waypoints, and interacting with (unlocking or opening) the door. 
 - Animations for the coins, key, and door. Help text also has a scrolling annimation to prevent messages from overlapping. 
-- A messaging system that provides helpful text about what items were picked up and the status of the door. 
+- A messaging system that provides helpful text about what items were picked up, game directions, and the status of the door. 
 - A heads up display (HUD) containing: (1) a graphic for the key. A gray icon will indicate that the key isn't picked up yet. A gold key indicates it has been collected. (2) A place to track score (collected coins). (3) A total of all the coins that are on the board. 
 - Added replay and quit buttons to the final win UI screen. 
 
@@ -25,3 +25,6 @@ I'm really proud of how everything in my Maze game is procedurely generated. Thi
 
 ## Screenshots
 Pictures of the app are available here. https://goo.gl/photos/DxKyzoBbuBrRrkNk8
+
+## Known Issues
+- It is possible to click through walls to pick up coins and waypoints. This will be addressed at a later point.
