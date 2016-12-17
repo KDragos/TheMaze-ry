@@ -22,10 +22,15 @@ public class CoinCounter : MonoBehaviour {
 		scoreText.text = currentScore + " / " + maxScore;
 	}
 
-	public void ScorePoints (int pointValue) {
+	public void ScorePoints (int pointValue)
+	{
 		currentScore += pointValue;
-		Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
-        message.text = "You've collected a coin with a point value of " + pointValue + "!";
+		Text message = (Text)Instantiate (messageText, helpMessage.transform, false);
+		if (currentScore == maxScore) {
+			message.text = "Great job collecting all the coins. Now get to work unlocking that door!";
+		} else {
+			message.text = "You've collected a coin with a point value of " + pointValue + "!";
+		}
 		Destroy(message, 5f);
 	}
 

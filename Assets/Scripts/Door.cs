@@ -18,6 +18,10 @@ public class Door : MonoBehaviour
 	{
 		locked = true;
 		winningUI.SetActive(false);
+
+		Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
+        message.text = "Find the key and unlock the door to win.";
+		Destroy(message, 7f);
 	}
 
     void Update ()
@@ -34,7 +38,7 @@ public class Door : MonoBehaviour
 
         Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
         message.text = "You've unlocked the door. Now you must find it to win.";
-		Destroy(message, 5f);
+		Destroy(message, 4f);
     }
 
     // If the door is locked, users get a message.
@@ -44,13 +48,13 @@ public class Door : MonoBehaviour
 		if (locked) {
 			Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
         	message.text = "This door is locked. There must be some way to open it.";
-        	Destroy(message, 5f);
+        	Destroy(message, 4f);
 		} else {
 			Text message = (Text) Instantiate(messageText, helpMessage.transform, false);
 			gameObject.GetComponent<Animator>().SetBool("HasKey", true);
         	message.text = "Congratulations!";
         	winningUI.SetActive(true);
-			Destroy(message, 5f);
+			Destroy(message, 4f);
 		}
 
     }
