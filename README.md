@@ -6,7 +6,7 @@ This game is a project for the Udacity's VR Developer Nanodegree program. The go
 ## Enhancements
 This is still a work in progress. My ideas for enhancing this game include: 
 
-- Procedurely generated walls, key spawn points, and collectibles to ensure that each time the game is played, the layout is different.
+- procedurally generated walls, key spawn points, and collectibles to ensure that each time the game is played, the layout is different.
 - Sound effects have been added when collecting an item, moving between waypoints, and interacting with (unlocking or opening) the door. 
 - Animations for the coins, key, and door. Help text also has a scrolling annimation to prevent messages from overlapping. 
 - A messaging system that provides helpful text about what items were picked up, game directions, and the status of the door. 
